@@ -7,6 +7,8 @@ So what exactly is Postman and how helpful can it be for us to explore APIs? the
 What is Postman?
 Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.
 
+![postman](/assets/postman-pat.gif)
+
 It basically help us to test our own APIs while building them and test other public APIs before using them in order for us to see how the data format that we are receiving and deal with it accordingly in our application.
 
 Now let's start with downloading [Postman](https://www.postman.com/downloads/).
