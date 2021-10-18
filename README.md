@@ -14,7 +14,29 @@ Now let's start with downloading [Postman](https://www.postman.com/downloads/).
 After downloading and installing it succesfuly u should see something similar to this:
 <img src="./assets/postman.jpg">
 
-Now the API that we will be using it the [Twitter API](https://developer.twitter.com/en/docs/twitter-api), it's one of the most famous APIs that people can integrate into their applications to fetch certain tweets or even build a [twitter bot](https://us.norton.com/internetsecurity-emerging-threats-what-are-twitter-bots-and-how-to-spot-them.html)!
+Here's a video for [the basics of using postman for api testing](https://www.youtube.com/watch?v=t5n07Ybz7yI)
+
+After watching the video please make sure to play a round with the tool to get yourself familiar with.
+
+Using this api url: https://jsonplaceholder.typicode.com
+
+Try these end points:
+- GET /posts
+- GET /posts/1
+- GET /posts/1/comments
+- GET /comments?postId=1
+- POST /posts
+- PUT /posts/1
+- PATCH /posts/1
+- DELETE /posts/1
 
 
+This is the [JSON placeholder API](https://jsonplaceholder.typicode.com/) that was used in the video in order to test other different requests.
 
+You can also take a look at a new emerging [Thunder Client](https://www.thunderclient.io/) extension, which can run similar requests on VS code directly without the need of an app 
+
+### References
+
+- https://www.postman.com/home
+- https://www.thunderclient.io/
+- 
