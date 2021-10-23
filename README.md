@@ -1,44 +1,62 @@
 # Testing APIs with Postman
-So what exactly is Postman and how helpful can it be for us to explore APIs? the learning objectives of this lesson are:
-1. Understanding how to work with Postman
-2. Exploring a public API
-3. Understanding how helpful it can be while developing
+So what exactly is Postman and how can it help us to explore APIs? The objectives of this assignment are:
+1. Understanding how to work with Postman.
+2. Exploring a public API using Postman.
 
-What is Postman?
-Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.
+## What is Postman?
+As per [their website](https://www.postman.com/) -- Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.
 
-![postman](/assets/postman-pat.gif)
+<img src="./assets/postman-pat.gif">
 
-It helps us to test our APIs while building them and test other public APIs before using them for us to see how the data format that we are receiving and deal with it accordingly in our application.
+Postman helps us to test our own APIs while building them and test other APIs before using them for us to see the API response formats and data that we are receiving so that we can deal with it accordingly in our application. It is used by many developers and many tech companies across the world.
 
-Now let's start with downloading [Postman](https://www.postman.com/downloads/).
+So let's start by [downloading Postman](https://www.postman.com/downloads/).
 
-After downloading and installing it successfully u should see something similar to this:
+After downloading and installing it successfully you should see something similar to this:
+
 <img src="./assets/postman.jpg">
 
-Here's a video for [the basics of using postman for API testing](https://www.youtube.com/watch?v=t5n07Ybz7yI)
+## Using Postman
 
-After watching the video please make sure to play around with the tool to get yourself familiar with it.
+Here's a quick 10 minute video for [the basics of using postman for API testing](https://www.youtube.com/watch?v=t5n07Ybz7yI).
 
-Using this API URL: https://jsonplaceholder.typicode.com
+Please note: The video is about 4 years old, so it is possible the UI of Postman might have some slight changes but overall it should still help you learn to use the tool.
 
-Try these end points:
-- GET /posts
-- GET /posts/1
-- GET /posts/1/comments
-- GET /comments?postId=1
-- POST /posts
-- PUT /posts/1
-- PATCH /posts/1
-- DELETE /posts/1
+### Explore on your own
 
+After watching the video, please make sure to play around with the tool to get yourself familiar with it.
 
-This is the [JSON placeholder API](https://jsonplaceholder.typicode.com/) that was used in the video to test other different requests.
+Use this API URL: https://jsonplaceholder.typicode.com
 
-You can also take a look at a new emerging [Thunder Client](https://www.thunderclient.io/) extension, which can run similar requests on VS code directly without the need for an app 
+And try out these end points on Postman:
+- `GET /posts`
+- `GET /posts/1`
+- `GET /posts/1/comments`
+- `GET /comments?postId=1`
+- `POST /posts`
+- `PUT /posts/1`
+- `PATCH /posts/1`
+- `DELETE /posts/1`
 
-### Resources
+Note: You can refer to the [JSONPlaceholder API guide](https://jsonplaceholder.typicode.com/guide/) to check the requirements of POST, PUT and PATCH requests.
 
+If you're interested, you can find more endpoints to explore on their guide. You can also try exploring any other open source API if you like.
+
+### Further Reading
+Throughout the course, we will be using Postman quite often to test our APIs. So hopefully this initial exploratory practice was helpful for you. As we move into advanced topics, we will also explore advanced features of Postman such as sending authenticated API requests.
+
+If you're fascinated by cool tech products and the history behind their creation, you can read [this blog post](https://blog.postman.com/how-we-built-postman-product-and-company/) called "How We Built Postman—the Product and the Company" by one of the co-founders of Postman.
+
+You can also take a look at a new emerging tool called [Thunder Client](https://www.thunderclient.io/), which is an extension that can run API requests on VSCode directly without the need for an app.
+
+### Submission
+Since this is just an exploratory assignment and there is no code work, you can mark your assignment as submitted by following these simple steps:
+1. Click on the blue button that says "Start Assignment".
+2. Copy and paste the API response of the endpoint `PUT /posts/1` in the text box provided.
+3. Click on "Submit Assignment".
+
+---
+## References
 - https://www.postman.com/home
 - https://www.thunderclient.io/
 - https://dzone.com/articles/postman-for-api-testing-pros-cons-and-alternative
